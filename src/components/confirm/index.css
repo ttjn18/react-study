@@ -1,0 +1,40 @@
+.r-confirm {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.r-confirm .content {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+.r-confirm .content .title {
+  font-size: 16px;
+}
+.r-confirm .content .main {
+  font-size: 14px;
+}
+.r-confirm .content .btns {
+  display: flex;
+  justify-content: center;
+}
+.r-confirm .content .btns .btn {
+  width: 72px;
+  height: 30px;
+  cursor: pointer;
+}
+.r-confirm .content .btns .btn:first-child {
+  margin-right: 10px;
+}
