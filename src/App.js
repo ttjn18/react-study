@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import InputNumber1 from './components/input-number/index1';
 import InputNumber2 from './components/input-number/index2';
-import confirm from './components/confirm';
 
 function App() {
     let [value, setValue] = useState('');
@@ -10,7 +9,7 @@ function App() {
         defaultValue: 11
     }
     useEffect(() => {
-        confirm()
+        
     })
     return (
         <div className="App">
